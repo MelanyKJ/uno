@@ -32,7 +32,7 @@ span {
 .animated-text span::after{
     content: "";
     position: absolute;
-    width: calc(100% + 4px);
+    width: calc(100% + 8px);
     height: 100%;
     background-color: #000000;
     border-left: 2px solid #ffcd50;
@@ -51,16 +51,16 @@ span {
         content: " que tengas un día genial";
     }
     21%,40%{
-        content: " que te vaya bien en tus clases";
+        content: " que te vaya bien";
     }
     41%,60%{
-        content: " y en la cita con tu mamá";
+        content: "en la cita con tu mamá";
     }
     61%,80%{
-        content: " almuerza temprano";
+        content: " en tus clases de hoy";
     }
     81%,100%{
-        content: " y fin xd";
+        content: " y finnnnnnnnnnnnnnn";
     }
 }
 
@@ -72,4 +72,3 @@ span {
         width: calc(100% + 8px);
     }
 }
-
