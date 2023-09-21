@@ -48,13 +48,13 @@ body{
         content: " que tengas un día genial";
     }
     21%,40%{
-        content: " que tengas un día genial x2";
-    }
-    41%,60%{
         content: " que te vaya bien en tus clases";
     }
+    41%,60%{
+        content: " y en la cita con tu mamá";
+    }
     61%,80%{
-        content: " almuera temprano";
+        content: " almuerza temprano";
     }
     81%,100%{
         content: " y fin xd";
@@ -69,4 +69,5 @@ body{
         width: calc(100% + 8px);
     }
 }
+
 
