@@ -14,10 +14,13 @@ body{
     font-size: 34px;
     font-weight: 600;
     min-width: 280px;
+    position: relative;
 }
 
-.animated-text span{
-    position: relative;
+span {
+  display: block;
+  width: 100%;
+  white-space: nowrap;
 }
 
 .animated-text span::before{
@@ -29,17 +32,17 @@ body{
 .animated-text span::after{
     content: "";
     position: absolute;
-    width: calc(100% + 8px);
+    width: calc(100% + 4px);
     height: 100%;
     background-color: #000000;
     border-left: 2px solid #ffcd50;
-    right: -8px;
+    right: -10px;
     animation: cursor .8s infinite, typing 20s steps(14) infinite;
 }
 
 @keyframes cursor {
     to{
-        border-left: 2px solid #ff7f5000;
+        border-left: 4px solid #ff7f5000;
     }
 }
 
@@ -69,5 +72,4 @@ body{
         width: calc(100% + 8px);
     }
 }
-
 
